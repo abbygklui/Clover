@@ -1,5 +1,9 @@
 body{
     background-color: #B7E2DD;
+    background-image: url("images/Landingpageimage.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
 }
 #container{
     border-radius:24px;
