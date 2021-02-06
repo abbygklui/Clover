@@ -1,6 +1,14 @@
 body{
     background-color:white;
 }
+h2 {
+    font-family: Poppins;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 600;
+    color: #363543;
+    text-align:center;
+}
 .box{
     width:300px;
     padding: 100px;
@@ -20,6 +28,7 @@ body{
 
 
 }
+
 .box input[ type = "text"],.box input[type = "password"]{
     background: none;
     display:block;
