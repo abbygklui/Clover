@@ -10,7 +10,7 @@ body{
 #container{
     border-radius:24px;
     position:absolute;
-    top: 50%;
+    top: 46%;
     left:50%;
     transform: translate(-50%,-55%);
    text-align:center;
