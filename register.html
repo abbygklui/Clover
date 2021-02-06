@@ -6,7 +6,6 @@
 
         <link rel="stylesheet" href = "style.css"/>
         <link rel="stylesheet" href = "register.css"/>
-        <script src="register.js"></script>
     </head> 
     <body>
 
@@ -22,10 +21,33 @@
 
     <h3>Please upload a photo for register</h3>
 
-    <input type="file" id="real-file" hidden="hidden"/>
-
+    <input type="file" id="real-file" hidden="hidden"/> 
     <button type="button" id="custom-button"> Upload a Photo </button>
-    <span id="custom-text">No file Chosen yet</span>
+    <span id="custom-text">No file chosen yet</span>
+
+
+
+
+
+    <script type="text/javascript">
+    const realFileBtn = document.getElementById("real-file");
+    const customBtn = document.getElementById("custom-button");
+    const customTxt = document.getElementById("custom-text");
+
+    customBtn.addEventListener("click", function(){
+    realFileBtn.click();
+});
+
+    realFileBtn.addEventListener("change",function(){
+        if(realFileBtn){
+            customTxt.innerHTML = realFileBtn.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/);
+        }else{
+            custom.txt.innerHTML = "No file chosen, yet."
+        }
+    })
+    </script>
+
+    
 
 
     </body>
