@@ -1,0 +1,43 @@
+.box{
+    width:1000px;
+    padding: 100px;
+    position:absolute;
+    top: 0%;
+    left:50%;
+    transform: translate(-50%,-22%);
+   text-align:center;
+   border-width:  thin;
+}
+.box input[ type = "text"],.box input[type = "password"]{
+    background: none;
+    display:block;
+    margin:35px auto;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #B7E2DD;
+    padding:13px 300px;
+    width:180px;
+    outline:none;
+    color:black;
+    border-radius:24px;
+    transition:0.25s;
+    border-width: thick;
+    font-weight: bold;
+}
+
+h3{
+    position:absolute;
+    top: 0%;
+    left:50%;
+    transform: translate(-50%,350%);
+   text-align:center;
+
+}
+
+#custom-button{
+    padding:10px;
+    color:white;
+    background-color:#B7E2DD;
+    border-radius: 24px;
+    cursor: pointer;
+}
