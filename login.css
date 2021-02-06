@@ -31,18 +31,16 @@ h2 {
 
 .box input[ type = "text"],.box input[type = "password"]{
     background: none;
-    display:block;
+    display: block;
     margin:35px auto;
-    text-align: center;
+  display: inline-block;
     font-weight: bold;
-    border: 2px solid #B7E2DD;
-    padding:14px 10px;
-    width:200px;
+    border: 4px solid #B7E2DD;
+    padding:14px 90px;
     outline:none;
-    color:black;
-    border-radius:24px;
-    transition:0.25s;
-    border-width:  medium thick;
+    border-radius:80px;
+    text-align:center;
+
     
 }
 .box input[type = "text"]:focus,.box input[type = "password"]:focus{
@@ -58,7 +56,7 @@ h2 {
     text-align:center;
     font-weight: bold;
     border:2px solid black;
-    padding:14px 10px;
+    padding:14px 70px;
     width:200px;
     outline:none;
     color: white;
