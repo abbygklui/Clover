@@ -80,13 +80,68 @@ h1{
     transform: translate(-50%,90%);
 }
 #confirm{
-    
     border-radius:100px;
-    padding: 1px 350px; 
     position:absolute;
-    top: 70%;
+    top: 73%;
+    left:50%;
+    transform: translate(-50%,100%);
+    text-align: center;
+    border:0;
+    background:black;
+    display:block;
+    text-align:center;
+    padding:0px 380px;
+    outline:none;
+    color: white;
+}
+#confirm:hover{
+    background-color: #3d3c41 ;
+}
+
+
+.professional{
+    border-radius:100px;
+    position:absolute;
+    top:60%;
     left:50%;
     transform: translate(-50%,100%);
     text-align: center;
     margin: auto;
+        border:0;
+        background:#4fb8ab;
+        display:block;
+        margin: 20px auto;
+        text-align:center;
+        font-weight: bold;
+        padding:10px 360px;
+        outline:none;
+        color: white;
+}
+.mentee{
+    border-radius:100px;
+    position:absolute;
+    top:67%;
+    left:50%;
+    transform: translate(-50%,100%);
+    text-align: center;
+    margin: auto;
+        border:0;
+        background:#4fb8ab;
+        display:block;
+        margin: 20px auto;
+        text-align:center;
+        font-weight: bold;
+        padding:10px 380px;
+        outline:none;
+        color: white;
+}
+.mentee:visited {
+    background-color: #3d3c41;
+  }
+
+.mentee:hover{
+    background-color: #60dacb  ;
+}
+.professional:hover{
+    background-color: #60dacb  ;
 }
