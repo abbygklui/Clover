@@ -55,3 +55,16 @@ h5 { /* logo */
     left:50%;
     transform: translate(-50%,-30%);
 }
+
+h6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #363543;
+    text-align: center;
+    position:absolute;
+    top: 43%;
+    left:50%;
+    transform: translate(-50%,-30%);
+}
