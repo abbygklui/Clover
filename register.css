@@ -34,6 +34,16 @@ h3{
 
 }
 
+h4{
+    font-size: x-large;
+    position:absolute;
+    top: 0%;
+    left:50%;
+    transform: translate(-50%,35%);
+   text-align:center;
+
+}
+
 #custom-button{
     position:absolute;
     top: 40%;
@@ -61,12 +71,12 @@ h3{
     color: darkgrey;
 }
 
-h5{
-    font-size:larger;
+h6{
+   
     position:absolute;
-    top: 46%;
+    top: 42%;
     left:50%;
-    transform: translate(-50%,80%);
+    transform: translate(-50%,60%);
     font-weight: bold;
     color: rgb(109, 108, 108);
     
@@ -145,6 +155,3 @@ h1{
 .professional:hover{
     background-color: #60dacb  ;
 }
-button:focus {
-    background-color:rgb(44, 80, 77);
-  }
