@@ -26,39 +26,43 @@
     <span id="custom-text"><h3>No file chosen yet</h3></span>
 
 
-
-
-
-    <script type="text/javascript">
-    const realFileBtn = document.getElementById("real-file");
-    const customBtn = document.getElementById("custom-button");
-    const customTxt = document.getElementById("custom-text");
-
-    customBtn.addEventListener("click", function(){
-    realFileBtn.click();
-});
-
-    realFileBtn.addEventListener("change",function(){
-        if(realFileBtn){
-            customTxt.innerHTML = realFileBtn.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/);
-        }else{
-            custom.txt.innerHTML = "No file chosen, yet."
-        }
-    })
-    </script>
-
     <h6> A ✓ will appear next to your name when you are verified </h6>
 
     <h1> Lastly, Which one are you? </h1>
-    
-    <button class=mentee type="button" id='button'><h7>Mentee</h7></button>
-    <button class=professional type="button" id='button'><h7>Professional</h7></button>
 
+    <button class=mentee type="button" id='buttons'  onclick="myFunction()"><h7>Mentee</h7></button>
+    <button class=professional type="button" id='buttons'  onclick="myFunction()"><h7>Professional</h7></button>
 
-<div id="confirm">
-        <a href="success.html">   
+ onclick="myFunction()"
+<div id="confirm"></div>
+    <a href="success.html">   
         <button id="confirm"><h4>Connect Now</h4></button> 
-      </a>
-    </div>
+    </a>
+</div>
+
+
 </body>
+
+<script type="text/javascript">
+const realFileBtn = document.getElementById("real-file");
+const customBtn = document.getElementById("custom-button");
+const customTxt = document.getElementById("custom-text");
+
+customBtn.addEventListener("click", function(){
+realFileBtn.click();
+});
+
+realFileBtn.addEventListener("change",function(){
+    if(realFileBtn){
+        customTxt.innerHTML = realFileBtn.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/);
+    }else{
+        custom.txt.innerHTML = "No file chosen, yet."
+    }
+})
+
+onclick="background_color_change_function()" function background_color_change_function() { document.getElementById("buttons").style.backgroundColor = "pink"; }
+</script>
+
+
+
 </html>
