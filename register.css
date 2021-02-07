@@ -155,3 +155,9 @@ h1{
 .professional:hover{
     background-color: #60dacb  ;
 }
+.mentee:focus{
+    background-color: #5d9b94 
+}
+.professional:focus{
+    background-color: #5d9b94 
+}
