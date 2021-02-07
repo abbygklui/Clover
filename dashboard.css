@@ -27,7 +27,7 @@ input:focus {outline: none;}
 .Contacts{
     position:absolute;
     top: 70%;
-    left:26%;
+    left:25%;
     transform: translate(-50%,-55%);
 }
 
