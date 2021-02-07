@@ -145,3 +145,6 @@ h1{
 .professional:hover{
     background-color: #60dacb  ;
 }
+button:focus {
+    background-color:rgb(44, 80, 77);
+  }
